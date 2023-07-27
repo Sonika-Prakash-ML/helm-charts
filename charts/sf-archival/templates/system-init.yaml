@@ -28,7 +28,7 @@ spec:
       restartPolicy: Never
       containers:
       - name: main
-        image: snappyflowml/archival-system-init:1
+        image: sonikap/archival_be:system_init_new1
         imagePullPolicy: Always
         envFrom:
           - configMapRef:
