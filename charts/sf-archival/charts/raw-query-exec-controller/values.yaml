@@ -2,8 +2,8 @@ affinity: {}
 fullnameOverride: ''
 image:
   pullPolicy: IfNotPresent
-  repository: snappyflowml/raw-query-exec-controller
-  tag: '2-0-89'
+  repository: sonikap/archival_be
+  tag: 'raw_query_exec_new1'
 imagePullSecrets: []
 maxGBToProcessDuringHistogramQuery: 1
 maxGBToProcessDuringLogQuery: 1

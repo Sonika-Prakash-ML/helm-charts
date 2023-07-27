@@ -13,10 +13,10 @@ retryBucket: 15
 replicaCount: 1
 
 image:
-  repository: nginx
+  repository: sonikap/archival_be
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: ""
+  tag: "orc_event_retry_new2"
 
 imagePullSecrets: []
 nameOverride: ""

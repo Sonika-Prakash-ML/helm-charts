@@ -17,8 +17,8 @@ db:
 fullnameOverride: ''
 image:
   pullPolicy: IfNotPresent
-  repository: snappyflowml/dataset-controller
-  tag: '2-0-89'
+  repository: sonikap/archival_be
+  tag: 'dataset_controller_new2'
 ingest-controller:
   service:
     servicePort: 5000

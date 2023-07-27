@@ -2,8 +2,8 @@ affinity: {}
 cbsparkevent:
   image:
     pullPolicy: IfNotPresent
-    repository: snappyflowml/cb-spark-event
-    tag: '2-0-89'
+    repository: sonikap/archival_be
+    tag: 'cb_spark_event_new1'
 compactionImage: snappyflowml/spark-compact-orc:2
 fullnameOverride: ''
 jobserver:
@@ -19,8 +19,8 @@ jobserver:
     max_open_connections: 1
   image:
     pullPolicy: IfNotPresent
-    repository: snappyflowml/job-server
-    tag: '2-0-89'
+    repository: sonikap/archival_be
+    tag: 'jobserver_new1'
   serverPort: 5002
   service:
     servicePort: 5002
@@ -36,8 +36,8 @@ monitor:
       memory: 10Mi
   image:
     pullPolicy: IfNotPresent
-    repository: snappyflowml/monitor
-    tag: '2-0-89'
+    repository: sonikap/archival_be
+    tag: 'monitornew1'
 nameOverride: ''
 nodeSelector: {}
 schedulerName: sf-scheduler

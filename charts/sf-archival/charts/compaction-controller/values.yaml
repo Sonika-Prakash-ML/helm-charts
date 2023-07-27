@@ -16,8 +16,8 @@ db:
 fullnameOverride: ''
 image:
   pullPolicy: IfNotPresent
-  repository: snappyflowml/compaction-controller
-  tag: '2-0-89'
+  repository: sonikap/archival_be
+  tag: 'compaction_controller_new1'
 ingest-controller:
   service:
     servicePort: 5000

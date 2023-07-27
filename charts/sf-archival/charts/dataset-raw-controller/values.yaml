@@ -28,8 +28,8 @@ db:
 fullnameOverride: ''
 image:
   pullPolicy: IfNotPresent
-  repository: snappyflowml/dataset-raw-controller
-  tag: '2-0-89'
+  repository: sonikap/archival_be
+  tag: 'dataset_raw_controller_new2'
 nameOverride: ''
 nodeSelector: {}
 podAnnotations:
@@ -50,8 +50,8 @@ tolerations: []
 orcEventController:
   image:
     pullPolicy: IfNotPresent
-    repository: snappyflowml/orc-event-controller
-    tag: '1'
+    repository: sonikap/archival_be
+    tag: 'orc_event_controller_new1'
   containerResources:
     limits:
       cpu: 250m

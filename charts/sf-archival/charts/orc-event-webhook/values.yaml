@@ -10,8 +10,8 @@ containerResources:
 fullnameOverride: ''
 image:
   pullPolicy: IfNotPresent
-  repository: snappyflowml/orc-event-webhook
-  tag: '0.1.0'
+  repository: sonikap/archival_be
+  tag: 'orc_event_webhook_new1'
 nameOverride: ''
 nodeSelector: {}
 schedulerName: sf-scheduler

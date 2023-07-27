@@ -16,8 +16,8 @@ db:
 fullnameOverride: ''
 image:
   pullPolicy: IfNotPresent
-  repository: snappyflowml/log-archival
-  tag: '2-0-89'
+  repository: sonikap/archival_be
+  tag: 'log_archival_new1'
 ingest-controller:
   service:
     servicePort: 5000
