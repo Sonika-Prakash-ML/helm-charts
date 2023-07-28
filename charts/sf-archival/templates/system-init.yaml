@@ -28,8 +28,10 @@ spec:
       restartPolicy: Never
       containers:
       - name: main
-        image: sonikap/archival_be:system_init_new1
-        imagePullPolicy: Always
+        image:
+          repository: sonikap/archival_be
+          pullPolicy: Always
+          tag: "system_init_new1"
         envFrom:
           - configMapRef:
               name: {{ .Release.Name }}-cloud-env
